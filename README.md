@@ -46,7 +46,7 @@ RECIPIENT=""            # Email address to send notifications to
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ```bash
 chmod +x log_archiver.sh
