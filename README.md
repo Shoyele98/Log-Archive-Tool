@@ -4,7 +4,7 @@ This Bash script automates the process of archiving log files from a specified d
 
 ---
 
-## 📋 Features
+## Features
 
 - Automatically compresses logs into a `.tar.gz` archive
 - Maintains a history of archived operations
@@ -13,7 +13,7 @@ This Bash script automates the process of archiving log files from a specified d
 
 ---
 
-## ⚙️ Gmail App Password Setup (Required for msmtp)
+## Gmail App Password Setup (Required for msmtp)
 
 1. Go to [https://myaccount.google.com/security](https://myaccount.google.com/security)
 2. Enable **2-Step Verification** if not already enabled.
@@ -24,7 +24,7 @@ This Bash script automates the process of archiving log files from a specified d
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. The script checks if `msmtp` is installed — if not, it installs and configures it automatically.
 2. It compresses logs from the specified directory into a timestamped `.tar.gz` file.
@@ -34,7 +34,7 @@ This Bash script automates the process of archiving log files from a specified d
 
 ---
 
-## 🧩 Variables Configuration
+## Variables Configuration
 
 Inside the script:
 
@@ -61,7 +61,7 @@ Example:
 
 ---
 
-## 📧 Email Notification Example
+## Email Notification Example
 
 When the script runs successfully, you’ll receive an email like this:
 
@@ -74,7 +74,7 @@ Archive Location: /var/log/myapp/archives
 
 ---
 
-## 🛠️ File Structure
+## File Structure
 
 ```
 log_archiver.sh
@@ -83,7 +83,7 @@ README.md
 
 ---
 
-## 🧾 Log History
+## Log History
 
 All activities are logged in:
 
@@ -95,7 +95,7 @@ Each entry includes the timestamp, source directory, and archive path.
 
 ---
 
-## ⚠️ Notes
+## Notes
 
 - Ensure you’ve configured Gmail with a valid **App Password**.
 - The script automatically sets permissions to secure your `.msmtprc` file.
